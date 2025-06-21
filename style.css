@@ -1,0 +1,83 @@
+body{
+  background:url(image-1.jpeg) no-repeat;
+  background-size:100%;
+}
+.total{
+  justify-items: center;
+  margin-top: 15%;
+}
+.main{
+  text-align: center;
+  border:3px solid rgb(43, 156, 226);
+  width:30%;
+  border-radius: 10px;
+  background-color: rgb(228, 182, 219);
+   margin: 0 auto;
+}
+.taskname{
+  display: flex;
+  font-size: larger;
+  background-color: aliceblue;
+  color: black;
+  box-shadow: 3px 3px 3px rgb(209, 96, 181);
+  margin: 0;
+  border:0;
+  width:60%;
+  padding: 7px;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow-wrap: break-word;
+  gap: 10px;
+ word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+li span {
+      flex: 1;
+      word-break: break-word;
+ }
+ li.done span {
+      text-decoration: line-through;
+      color: gray;
+    }
+.delete{
+  color: whitesmoke;
+  margin:20px;
+  padding:7px;
+  border-radius: 5px;
+  background-color: red;
+  border:0;
+  cursor: pointer;
+}
+.delete:hover{
+  background-color: rgb(221, 30, 30);
+}
+.delete:active{
+  background-color: rgb(186, 59, 59);
+}
+h1{
+  font-style: italic;
+}
+input{
+  box-shadow: 5px 5px 5px rgb(209, 96, 181);
+  margin: 0;
+  width: 60%;
+  padding: 7px;
+  border-radius: 5px;
+}
+.taskbutton{
+  margin:20px;
+  padding:7px;
+  border-radius: 5px;
+  background-color: rgb(0, 91, 147);
+  color: rgb(240, 240, 238);
+  border:0;
+  cursor: pointer;
+}
+.taskbutton:hover{
+  background-color: rgb(27, 133, 199);
+}
+.taskbutton:active{
+  background-color: rgb(68, 127, 164);
+}
