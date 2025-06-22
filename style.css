@@ -1,18 +1,25 @@
+* {
+  font-style: italic;
+}
 body{
-  background: url(image-1.jpeg) no-repeat;
-  background-size: 100%;
-  justify-items: center;
+  background:url(image-1.jpeg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  margin:0;
 }
 .total{
   justify-items: center;
-  margin-top: 15%;
   width:500px;
 }
 .main{
   text-align: center;
   border:3px solid rgb(43, 156, 226);
   border-radius: 10px;
-  background-color: rgb(228, 182, 219);
+  background:linear-gradient(to left,pink,rgb(108, 192, 223));
   margin: 0 auto;
 }
 .taskname{
@@ -20,7 +27,7 @@ body{
   font-size: larger;
   background-color: aliceblue;
   color: black;
-  box-shadow: 3px 3px 3px rgb(209, 96, 181);
+  box-shadow: 3px 3px 3px rgb(108, 192, 223);
   margin: 0;
   border:0;
   width:60%;
@@ -61,10 +68,11 @@ h1{
   font-style: italic;
 }
 input{
-  box-shadow: 5px 5px 5px rgb(209, 96, 181);
+  box-shadow: 3px 3px 3px rgb(253, 221, 226);
   margin: 0;
   padding: 7px;
   border-radius: 5px;
+  width:50%;
 }
 .taskbutton{
   margin:20px;
