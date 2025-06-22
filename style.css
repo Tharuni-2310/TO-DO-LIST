@@ -1,18 +1,19 @@
 body{
-  background:url(image-1.jpeg) no-repeat;
-  background-size:100%;
+  background: url(image-1.jpeg) no-repeat;
+  background-size: 100%;
+  justify-items: center;
 }
 .total{
   justify-items: center;
   margin-top: 15%;
+  width:500px;
 }
 .main{
   text-align: center;
   border:3px solid rgb(43, 156, 226);
-  width:30%;
   border-radius: 10px;
   background-color: rgb(228, 182, 219);
-   margin: 0 auto;
+  margin: 0 auto;
 }
 .taskname{
   display: flex;
@@ -30,7 +31,7 @@ body{
   align-items: flex-start;
   overflow-wrap: break-word;
   gap: 10px;
- word-wrap: break-word;
+  word-wrap: break-word;
   overflow-wrap: break-word;
 }
 li span {
@@ -62,7 +63,6 @@ h1{
 input{
   box-shadow: 5px 5px 5px rgb(209, 96, 181);
   margin: 0;
-  width: 60%;
   padding: 7px;
   border-radius: 5px;
 }
